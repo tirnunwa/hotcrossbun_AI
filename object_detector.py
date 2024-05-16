@@ -12,7 +12,7 @@ def root():
     Site main page handler function.
     :return: Content of index.html file
     """
-    with open("real(2).html") as file:
+    with open("real(3).html") as file:
         return file.read()
 
 
